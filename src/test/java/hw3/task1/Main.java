@@ -14,5 +14,7 @@ public class Main {
         System.out.println("Deserialized class student");
         System.out.println(deserializedStudent);
         System.out.println("Field 'GPA' not restored because it's 'transient'");
+
+
     }
 }
