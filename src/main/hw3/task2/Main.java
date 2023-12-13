@@ -1,7 +1,5 @@
-package hw3.task2;
+package main.hw3.task2;
 
-
-import static hw3.task2.StudentSerialization.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,14 +9,14 @@ public class Main {
         System.out.println(student);
         System.out.println();
 
-        serializeToJson(student, "student.json");
-        Student deserializedStudentJson = deserializeFromJson("student.json");
+        StudentSerialization.serializeToJson(student, "student.json");
+        Student deserializedStudentJson = StudentSerialization.deserializeFromJson("student.json");
         System.out.println("Deserialized from JSON class student");
         System.out.println(deserializedStudentJson);
         System.out.println();
 
-        serializeToXml(student, "student.xml");
-        Student deserializedStudentXml = deserializeFromXml("student.xml");
+        StudentSerialization.serializeToXml(student, "student.xml");
+        Student deserializedStudentXml = StudentSerialization.deserializeFromXml("student.xml");
         System.out.println("Deserialized from XML class student");
         System.out.println(deserializedStudentXml);
         System.out.println();

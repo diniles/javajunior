@@ -1,4 +1,4 @@
-package hw3.task1;
+package main.hw3.task1;
 
 import java.io.*;
 

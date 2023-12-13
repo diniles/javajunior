@@ -1,15 +1,14 @@
-package hw3.task1;
+package main.hw3.task2;
 
-import java.io.Serial;
-import java.io.Serializable;
 
-public class Student implements Serializable {
-    @Serial
-    private static final long serialVersionUID = 1L;
-
-    private final String name;
+public class Student {
+    private String name;
     private int age;
-    private transient double GPA;
+    private double GPA;
+
+    public Student() {
+
+    }
 
     public Student(String name, int age, double GPA) {
         this.name = name;
@@ -19,6 +18,10 @@ public class Student implements Serializable {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {
