@@ -1,9 +1,5 @@
 package hw3.task2;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Student {
     private String name;
     private int age;
@@ -18,7 +14,6 @@ public class Student {
         this.GPA = GPA;
     }
 
-    @XmlElement
     public String getName() {
         return name;
     }
@@ -27,7 +22,6 @@ public class Student {
         this.name = name;
     }
 
-    @XmlElement
     public int getAge() {
         return age;
     }
@@ -36,7 +30,6 @@ public class Student {
         this.age = age;
     }
 
-    @XmlElement
     public double getGPA() {
         return GPA;
     }
