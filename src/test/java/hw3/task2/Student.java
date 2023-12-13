@@ -1,11 +1,13 @@
 package hw3.task2;
 
+
 public class Student {
     private String name;
     private int age;
-    private transient double GPA;
+    private double GPA;
 
     public Student() {
+
     }
 
     public Student(String name, int age, double GPA) {
