@@ -5,7 +5,7 @@ import static hw3.task2.StudentSerialization.*;
 
 public class Main {
     public static void main(String[] args) {
-        Student student = new Student("Markus", 43, 8.7);
+        Student student = new Student("Markus", 62, 8.7);
 
         System.out.println("Original class student");
         System.out.println(student);
