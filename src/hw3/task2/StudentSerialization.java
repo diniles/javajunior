@@ -1,4 +1,4 @@
-package main.hw3.task2;
+package hw3.task2;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
